@@ -9,3 +9,6 @@ class Solution:
                 return[lists[complement], i]
             
             lists[num]= i
+
+# Time Complexity: O(n) We visit every element at most once
+# Space Complexity: O(n) In the worst case, there is no answer until the end. Then we store almost every element
